@@ -1,0 +1,26 @@
+{
+  "name": "whisper-slack-connector",
+  "version": "0.1.0",
+  "description": "A Slack bot that connects the #status Whisper channel with the Status Slack team",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --inspect dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Noman <noman@noman.land>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "eslint": "^4.16.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.2.1"
+  },
+  "dependencies": {
+    "prompt": "^1.0.0",
+    "transit-js": "^0.8.861",
+    "web3": "^1.0.0-beta.34"
+  }
+}
